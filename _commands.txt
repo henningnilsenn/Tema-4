@@ -1,0 +1,7 @@
+npm init
+
+npm install vue@next
+npm install --save-dev vite@latest
+
+npm install --save-dev @vitejs/plugin-vue
+npm install --save-dev @vue/compiler-sfc

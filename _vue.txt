@@ -1,0 +1,42 @@
+<KomponentMedStorK :navnTilProp="verdi" />
+
+<KomponentMedStorK :navnTilProp="verdi">
+	Innhold plassert i <slot>
+</KomponentMedStorK>
+
+template
+	v-if
+	v-else-if
+	v-else
+
+	v-for="(fruit, index) in fruitsFromData"
+
+	v-bind:class=""
+	:class=""
+
+	v-on:click="<method>"
+	@click="<method>"
+
+	template v-slot:my_slot
+
+	<slot name="my_slot">
+
+ 	{{ variableFromData }}
+ 	{{ computedVariable }}
+
+
+script
+	import KomponentMedStorK from '../url/osv'
+	# importere, registrere, plassere
+
+	export default {
+		props: {},
+		components: {},
+		data() {},
+		computed: {},
+		methods: {}
+	}
+
+
+style
+	@import '../url/til/fil'
